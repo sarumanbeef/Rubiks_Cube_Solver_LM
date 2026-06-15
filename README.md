@@ -3,8 +3,8 @@
 An optimized, single threaded C++ implementation of Kociemba's Algorithm while maintaing a tiny memory footprint of **~3MB of RAM**.
 
 ## Highlights
-* **Optimal Solution:** The engine first quickly comes with an optimal solution equal to or less than 20 moves.
-* **Hunt For Shortest Solution:** If given enough time, the engine continues to search for better solution. The program exits when the shortest possible solution for the given scramble has been found.
+* **Short Solution:** The engine first quickly comes with a short solution equal to or less than 20 moves.
+* **Hunt For Optimal Solution:** If given enough time, the engine continues to search for better solution. The program exits when the shortest possible solution for the given scramble has been found.
 
 ---
 
@@ -52,7 +52,7 @@ Once successfully compiled, invoke the output binary file:
 ```
 
 ### Example Log Output
-Upon running, you will be prompted to enter a space-separated string of standard face-turns. The solver maps out the net representation, fires both phases, and dynamically narrows down to the optimal solution:
+Upon running, you will be prompted to enter a space-separated string of standard face-turns. The solver maps out the net representation, narrows down to the optimal solution:
 
 ```plaintext
 Enter scramble sequence (eg: R U R' U' ... ) -> R U' R2 D' L F2 R' B2 U D' R2 L
