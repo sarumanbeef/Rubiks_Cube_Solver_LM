@@ -1,6 +1,6 @@
 # Low Memory Kociemba Two-Phase Rubik's Cube Solver
 
-An optimized, single threaded C++ implementation of Kociemba's Algorithm
+An optimized, single threaded C++ implementation of Kociemba's Algorithm while maintaing a tiny memory footprint of **~3MB of RAM**.
 
 ## Highlights
 * **Optimal Solution:** The engine first quickly comes with an optimal solution equal to or less than 20 moves.
@@ -20,11 +20,16 @@ sudo apt install build-essential cmake
 ```
 
 ### Build Steps
-1. Generate the compiler build configuration:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sarumanbeef/Rubiks_Cube_Solver_LM/
+   cd Rubiks_Cube_Solver_LM
+   ```
+2. Generate the compiler build configuration:
    ```bash
    cmake -B build
    ```
-2. Compile and link the final executable:
+3. Compile and link the final executable:
    ```bash
    cmake --build build
    ```
