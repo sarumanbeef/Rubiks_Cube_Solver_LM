@@ -89,5 +89,8 @@ Time Taken: 7852ms
 Total Nodes Evaluated: 47802752
 Move Sequence: L' R2 D U' B2 R F2 L' D R2 U R'
 ```
+
+---
+
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
