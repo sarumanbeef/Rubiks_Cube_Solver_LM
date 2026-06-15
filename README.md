@@ -20,7 +20,7 @@ sudo apt update
 sudo apt install build-essential cmake
 ```
 
-#### For Android
+### For Android
 Download the [Termux](https://play.google.com/store/apps/details?id=com.termux) app from PlayStore.
 ```bash
 pkg update
