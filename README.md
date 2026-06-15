@@ -4,21 +4,28 @@ An optimized, single threaded C++ implementation of Kociemba's Algorithm while m
 
 ## Highlights
 * **Optimal Solution:** The engine first quickly comes with an optimal solution equal to or less than 20 moves.
-* **Hunt For Shortest Solution:** If given enough time, the engine continues to search for better solution. The program exits once the shortest possible solution for the given scramble has been found.
+* **Hunt For Shortest Solution:** If given enough time, the engine continues to search for better solution. The program exits when the shortest possible solution for the given scramble has been found.
 
 ---
 
 ## 🛠️ Build and Compilation Instructions
 
-This project utilizes `CMake` for building native binaries. Follow the instructions below to compile and run the solver on a Linux machine
+This project utilizes `CMake` for building native binaries. Follow the instructions below to compile and run the solver on a Linux machine.
 
 ### Pre-requisites
+### For Desktop
 Ensure you have a modern C++ compiler supporting standard feautures (C++20 or newer)
 ```bash
 sudo apt update
 sudo apt install build-essential cmake
 ```
-
+### For Android
+Download the [Termux](https://play.google.com/store/apps/details?id=com.termux) app from PlayStore.
+```bash
+pkg update
+pkg install git clang
+pkg install build-essential cmake
+```
 ### Build Steps
 1. Clone the repository:
    ```bash
