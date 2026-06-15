@@ -27,7 +27,7 @@ pkg update
 pkg install git clang
 pkg install build-essential cmake
 ```
-### Build Steps
+## Build Steps
 1. Clone the repository:
    ```bash
    git clone https://github.com/sarumanbeef/Rubiks_Cube_Solver_LM/
