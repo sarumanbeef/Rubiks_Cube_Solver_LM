@@ -15,30 +15,30 @@ This project utilizes `CMake` for building native binaries. Follow the instructi
 ## Pre-requisites
 Ensure you have a modern C++ compiler supporting standard feautures (C++20 or newer)
 
-#### For Debian
+#### Debian:
 ```bash
 sudo apt update
 sudo apt install build-essential cmake
 ```
 
-#### For Arch
+#### Arch:
 ```bash
 sudo pacman -Syu base-devel cmake
 ```
 
-#### For Fedora
+#### Fedora:
 ```
 sudo dnf groupinstall "Development Tools"
 sudo dnf install cmake
 ```
 
-#### For Mac
+#### Mac:
 ```bash
 xcode-select --install
 brew install cmake
 ```
 
-#### For Android
+#### Android:
 Download the [Termux](https://play.google.com/store/apps/details?id=com.termux) app from PlayStore.
 ```bash
 pkg update
