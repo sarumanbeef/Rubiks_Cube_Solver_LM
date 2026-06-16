@@ -10,14 +10,32 @@ An optimized, single threaded C++ implementation of Kociemba's Algorithm while m
 
 ## 🛠️ Build and Compilation Instructions
 
-This project utilizes `CMake` for building native binaries. Follow the instructions below to compile and run the solver on a Linux machine.
+This project utilizes `CMake` for building native binaries. Follow the instructions below to compile and run the solver on a machine.
 
 ## Pre-requisites
-#### For Desktop
 Ensure you have a modern C++ compiler supporting standard feautures (C++20 or newer)
+
+#### For Debian
 ```bash
 sudo apt update
 sudo apt install build-essential cmake
+```
+
+#### For Arch
+```bash
+sudo pacman -Syu base-devel cmake
+```
+
+#### For Fedora
+```
+sudo dnf groupinstall "Development Tools"
+sudo dnf install cmake
+```
+
+#### For Mac
+```bash
+xcode-select --install
+brew install cmake
 ```
 
 #### For Android
